@@ -1,0 +1,84 @@
+/* Duolingo-style theme */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffd8ee; /* Duolingo green */
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 50px auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #58CC02;
+    border-radius: 8px;
+    font-size: 1em;
+    outline: none;
+}
+
+button {
+    background-color: #FFCC00; /* Duolingo yellow */
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #FFDD44;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.result-card {
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.result-card p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background: #FFCC00;
+    color: #333;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.back-btn:hover {
+    background: #FFDD44;
+}

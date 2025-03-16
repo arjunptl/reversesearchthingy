@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🤔 Your Search: "{{ funny_query }}"</h1>
+        <h3>Steps to do it stupid:</h3>
+        <ul>
+            {% for step in steps %}
+                <li class="result-card">
+                    <p>{{ step.step }}</p>
+                </li>
+            {% endfor %}
+        </ul>
+        <a href="/" class="back-btn">🔄 Try Again</a>
+    </div>
+</body>
+</html>
